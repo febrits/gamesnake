@@ -1,7 +1,7 @@
 # 🐍 GameSnake
 ## 🌐 Live Demo
 
-https://gamesnake-two.vercel.app
+febrits/gamesnake
 
 
 A classic Snake browser game built with React 19, TypeScript, Vite, and Tailwind CSS v4.
