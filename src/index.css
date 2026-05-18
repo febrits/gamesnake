@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --game-bg: #0a0a0f;
+  --game-board: #111118;
+  --game-cell: #1a1a24;
+  --game-snake: #22d3ee;
+  --game-snake-head: #67e8f9;
+  --game-food: #f43f5e;
+  --game-text: #e2e8f0;
+  --game-text-dim: #64748b;
+  --game-accent: #a78bfa;
+  --game-border: #1e1e2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--game-bg);
+  color: var(--game-text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
